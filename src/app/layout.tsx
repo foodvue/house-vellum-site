@@ -14,12 +14,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'House Tallow — Slow-made by hand. Indiana.',
+  title: 'House Vellum — Six weeks. By hand.',
   description:
-    'Handmade tallow soap, slow-cured for six weeks. Sealed by the house. Made in Indiana.',
+    'Handmade tallow soap, slow-cured for six weeks and sealed by hand. Made in Fishers, Indiana.',
   openGraph: {
-    title: 'House Tallow',
-    description: 'Slow-made by hand. Indiana.',
+    title: 'House Vellum',
+    description: 'Six weeks. By hand.',
     type: 'website',
   },
 };

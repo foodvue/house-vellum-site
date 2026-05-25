@@ -7,19 +7,19 @@ export default function Home() {
         </p>
 
         <div className="mb-8 flex justify-center">
-          <div className="w-16 h-16 rounded-full border-2 border-oxblood flex items-center justify-center">
-            <span className="font-serif text-2xl tracking-wider text-oxblood">
-              HT
+          <div className="w-20 h-20 rounded-full border-2 border-oxblood flex items-center justify-center">
+            <span className="font-serif text-3xl text-oxblood">
+              V
             </span>
           </div>
         </div>
 
         <h1 className="font-serif text-5xl md:text-6xl tracking-wider text-ink mb-6">
-          HOUSE TALLOW
+          HOUSE VELLUM
         </h1>
 
         <p className="font-serif italic text-lg text-ink/70 mb-12">
-          Slow-made by hand. Indiana.
+          Six weeks. By hand.
         </p>
 
         <div className="w-12 h-px bg-kraft mx-auto mb-12" />

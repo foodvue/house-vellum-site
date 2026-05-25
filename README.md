@@ -1,12 +1,12 @@
-# House Tallow
+# House Vellum
 
-Custom Next.js site for House Tallow — handmade tallow soap, slow-cured by hand in Indiana.
+Custom Next.js site for House Vellum — handmade tallow soap, slow-cured by hand in Indiana.
 
 ## Stack
 
-- **Next.js 15** (App Router, Turbopack)
+- **Next.js 16** (App Router, Turbopack)
 - **TypeScript**
-- **Tailwind CSS** (with House Tallow brand tokens)
+- **Tailwind CSS** (with House Vellum brand tokens)
 - **Cormorant Garamond + Inter** fonts via `next/font`
 - Hosted on **Vercel**, code on **GitHub**
 
@@ -37,7 +37,7 @@ Defined in `tailwind.config.ts`:
 
 Auto-deploys to Vercel on push to `main`.
 
-Production URL: [housetallow.com](https://housetallow.com)
+Production URL: [housevellum.com](https://housevellum.com)
 
 ## DNS configuration
 
