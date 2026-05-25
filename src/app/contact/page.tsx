@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Contact | House Vellum',
-  description: 'Write to House Vellum — Fishers, Indiana.',
+  description: 'Write to House Vellum. Fishers, Indiana.',
 };
 
 export default function ContactPage() {
@@ -16,7 +16,7 @@ export default function ContactPage() {
             Write to us.
           </h1>
           <p className="text-base text-ink/80 leading-relaxed mb-12 max-w-md">
-            We read every note. Wholesale inquiries, press, and small questions are all welcome. We answer within a few days — often the same one.
+            We read every note. Wholesale inquiries, press, and small questions are all welcome. We answer within a few days. Often the same one.
           </p>
 
           <div className="space-y-8">
@@ -34,7 +34,7 @@ export default function ContactPage() {
               <p className="font-serif text-xs tracking-[0.3em] uppercase text-kraft mb-2">Made in</p>
               <p className="text-ink leading-relaxed">
                 Fishers, Indiana<br />
-                <span className="text-ink/60 italic">No visiting hours yet — the kitchen is busy curing.</span>
+                <span className="text-ink/60 italic">No visiting hours yet. The kitchen is busy curing.</span>
               </p>
             </div>
 

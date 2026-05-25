@@ -26,7 +26,7 @@ export default function ProductPage({ product }: ProductPageProps) {
           <div className="relative aspect-[4/5] bg-kraft/10 sticky top-24">
             <Image
               src={product.image}
-              alt={`${product.number} — ${product.name}`}
+              alt={`${product.number} · ${product.name}`}
               fill
               className="object-cover"
               priority
@@ -81,7 +81,7 @@ export default function ProductPage({ product }: ProductPageProps) {
                 <span className="text-kraft group-open:rotate-45 transition-transform">+</span>
               </summary>
               <p className="text-sm text-ink/70 leading-relaxed mt-4">
-                Most artisan soap is cured for four weeks. House Vellum cures for six. The extra two weeks give a harder bar that lasts longer in the dish, lathers more cleanly, and finishes smoother on the skin. There is no shortcut to this — only the wait.
+                Most artisan soap is cured for four weeks. House Vellum cures for six. The extra two weeks give a harder bar that lasts longer in the dish, lathers more cleanly, and finishes smoother on the skin. There is no shortcut to this. Only the wait.
               </p>
             </details>
           </div>
@@ -100,7 +100,7 @@ export default function ProductPage({ product }: ProductPageProps) {
                 <div className="relative aspect-[3/2] mb-5 overflow-hidden bg-kraft/10">
                   <Image
                     src={p.image}
-                    alt={`${p.number} — ${p.name}`}
+                    alt={`${p.number} · ${p.name}`}
                     fill
                     className="object-cover group-hover:scale-[1.03] transition-transform duration-[1200ms] ease-out"
                     sizes="(max-width: 768px) 100vw, 50vw"

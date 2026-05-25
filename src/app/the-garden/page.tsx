@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 const product = getProduct('the-garden');
 
 export const metadata: Metadata = {
-  title: `${product.number} — ${product.name} | House Vellum`,
+  title: `${product.number} · ${product.name} | House Vellum`,
   description: product.blurb,
 };
 

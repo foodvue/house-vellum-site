@@ -31,7 +31,7 @@ export default function Home() {
       {/* Hero */}
       <section className="grid md:grid-cols-2 min-h-[calc(100vh-73px)]">
         <div className="flex flex-col justify-center px-8 md:px-16 lg:px-24 py-16 bg-cream order-2 md:order-1">
-          <p className="font-serif text-xs tracking-[0.3em] text-kraft uppercase mb-8">Est. 2026 — Fishers, Indiana</p>
+          <p className="font-serif text-xs tracking-[0.3em] text-kraft uppercase mb-8">Est. 2026 · Fishers, Indiana</p>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl tracking-wider text-ink mb-6 leading-[1.05]">
             HOUSE<br />VELLUM
           </h1>
@@ -39,7 +39,7 @@ export default function Home() {
             Six weeks. By hand.
           </p>
           <p className="text-base text-ink/80 mb-10 max-w-md leading-relaxed">
-            Slow-cured tallow soap, wrapped in vellum paper, sealed in oxblood wax. Three small bars — available July 2026.
+            Slow-cured tallow soap, wrapped in vellum paper, sealed in oxblood wax. Three small bars. Available July 2026.
           </p>
           <div className="flex items-center gap-6">
             <Link
@@ -88,7 +88,7 @@ export default function Home() {
       <section className="bg-cream pb-28 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <p className="font-serif text-xs tracking-[0.3em] text-kraft uppercase mb-4">The Library — Inaugural Three</p>
+            <p className="font-serif text-xs tracking-[0.3em] text-kraft uppercase mb-4">The Library · Inaugural Three</p>
             <h2 className="font-serif text-4xl md:text-5xl text-ink">No. I, II, III</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-10 md:gap-12">
@@ -97,7 +97,7 @@ export default function Home() {
                 <div className="relative aspect-[4/5] mb-6 overflow-hidden bg-kraft/10">
                   <Image
                     src={p.img}
-                    alt={`${p.number} — ${p.name}`}
+                    alt={`${p.number} · ${p.name}`}
                     fill
                     className="object-cover group-hover:scale-[1.03] transition-transform duration-[1200ms] ease-out"
                     sizes="(max-width: 768px) 100vw, 33vw"
@@ -129,10 +129,10 @@ export default function Home() {
             <p className="font-serif text-xs tracking-[0.3em] text-cream/50 uppercase mb-6">Our House</p>
             <h2 className="font-serif text-4xl md:text-5xl mb-8 leading-[1.15]">
               Made by a thirteen-year-old<br />
-              <span className="italic text-cream/70">and his father.</span>
+              <span className="italic text-cream/70">and his mother.</span>
             </h2>
             <p className="text-cream/80 leading-relaxed mb-10 text-base">
-              House Vellum is the work of Lukas and his father — rendering tallow, pouring soap, and pressing wax seals from a small kitchen in Fishers, Indiana. Not venture-backed. Not theatre. Just the old way of making things, done on purpose.
+              House Vellum is the work of Lukas and his mother. They render tallow, pour soap, and press wax seals from a small kitchen in Fishers, Indiana. Not venture-backed. Not theatre. Just the old way of making things, done on purpose.
             </p>
             <Link
               href="/our-house"

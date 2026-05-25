@@ -4,7 +4,7 @@ import { products } from '@/data/products';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'The Library — Shop | House Vellum',
+  title: 'The Library · Shop | House Vellum',
   description:
     'Three inaugural soap bars from House Vellum: The Library, The Garden, and The Pantry. Available July 2026.',
 };
@@ -30,7 +30,7 @@ export default function ShopPage() {
               <div className="relative aspect-[4/5] mb-6 overflow-hidden bg-kraft/10">
                 <Image
                   src={p.image}
-                  alt={`${p.number} — ${p.name}`}
+                  alt={`${p.number} · ${p.name}`}
                   fill
                   className="object-cover group-hover:scale-[1.03] transition-transform duration-[1200ms] ease-out"
                   sizes="(max-width: 768px) 100vw, 33vw"

@@ -17,7 +17,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://housevellum.com'),
-  title: 'House Vellum — Six weeks. By hand.',
+  title: 'House Vellum · Six weeks. By hand.',
   description:
     'Handmade tallow soap, slow-cured for six weeks and sealed by hand. Made in Fishers, Indiana.',
   openGraph: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         url: '/og/og-card.jpg',
         width: 1200,
         height: 630,
-        alt: 'House Vellum — handmade tallow soap, sealed in oxblood wax',
+        alt: 'House Vellum · handmade tallow soap, sealed in oxblood wax',
       },
     ],
   },
